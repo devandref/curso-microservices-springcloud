@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eurekaserver" />
+        <module name="ms-cloud-gateway" />
       </profile>
       <profile name="Annotation profile for ms-client" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -24,6 +25,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eurekaserver" options="-parameters" />
       <module name="ms-client" options="-parameters" />
+      <module name="ms-cloud-gateway" options="-parameters" />
     </option>
   </component>
 </project>
