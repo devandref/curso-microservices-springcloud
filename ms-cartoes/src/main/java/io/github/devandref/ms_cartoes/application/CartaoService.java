@@ -2,7 +2,6 @@ package io.github.devandref.ms_cartoes.application;
 
 import io.github.devandref.ms_cartoes.domain.Cartao;
 import io.github.devandref.ms_cartoes.infra.repository.CartaoRepository;
-import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

@@ -2,11 +2,9 @@ package io.github.devandref.ms_cartoes.application.representation;
 
 import io.github.devandref.ms_cartoes.domain.BandeiraCartao;
 import io.github.devandref.ms_cartoes.domain.Cartao;
-import lombok.Data;
 
 import java.math.BigDecimal;
 
-@Data
 public class CartaoSaveRequest {
 
     private String nome;
@@ -16,6 +14,38 @@ public class CartaoSaveRequest {
 
     public Cartao toModel() {
         return new Cartao(nome, bandeira, renda, limite);
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public BandeiraCartao getBandeira() {
+        return bandeira;
+    }
+
+    public void setBandeira(BandeiraCartao bandeira) {
+        this.bandeira = bandeira;
+    }
+
+    public BigDecimal getRenda() {
+        return renda;
+    }
+
+    public void setRenda(BigDecimal renda) {
+        this.renda = renda;
+    }
+
+    public BigDecimal getLimite() {
+        return limite;
+    }
+
+    public void setLimite(BigDecimal limite) {
+        this.limite = limite;
     }
 
 }
