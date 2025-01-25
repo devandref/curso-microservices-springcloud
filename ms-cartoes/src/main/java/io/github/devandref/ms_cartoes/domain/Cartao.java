@@ -1,6 +1,5 @@
 package io.github.devandref.ms_cartoes.domain;
 
-
 import javax.persistence.*;
 import java.math.BigDecimal;
 
