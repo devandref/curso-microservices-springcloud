@@ -1,9 +1,9 @@
 spring:
   application:
-    name: ms-clientes
+    name: ms-avaliador-credito
 
 server:
-  port: 8082
+  port: 8083
 
 eureka:
   client:
